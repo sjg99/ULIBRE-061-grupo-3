@@ -150,7 +150,13 @@ img::-moz-selection {
 #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: #019BD7
 }
-
+.logo-top{
+    width: 150px;
+    height: 25px;
+    background-size: cover;
+    background-position: center; 
+    background-image: url("../img/logos/MeinBus2.png");
+}
 @media (min-width:992px) {
     #mainNav {
         padding-top: 25px;
@@ -181,12 +187,19 @@ img::-moz-selection {
         font-size: 1.25em;
         padding: 12px 0
     }
+    .logo-top{
+        width: 200px;
+        height: 38px;
+        background-size: cover;
+        background-position: center; 
+        background-image: url("../img/logos/MeinBus2.png");
+    }
 }
 
 header.masthead {
     text-align: center;
     color: #fff;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/header-bg2.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
