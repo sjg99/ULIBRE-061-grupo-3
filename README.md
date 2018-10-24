@@ -1,11 +1,12 @@
-# Mein Bus
+# Siscot
 
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)]()
 
 
 
-Mein Bus nace con el fin de dar solucion de problemas de transporte comunes, cuyo fin es brindar un mejor servicio a todos los ciudadanos.
+Siscot nace con el fin de dar solucion de problemas de transporte 
+comunes, cuyo fin es brindar un mejor servicio a todos los ciudadanos.
 
 ## Reto
 
@@ -17,7 +18,8 @@ Mein Bus nace con el fin de dar solucion de problemas de transporte comunes, cuy
 
 ### Tecnologias
 
-Mein Bus usa un numero de tecnologias open source las cuales ayudaron a la construcción del proyecto, las cuales son:
+Siscot usa un numero de tecnologias open source las cuales ayudaron a la 
+construcción del proyecto, las cuales son:
 
 * [Angular](https://angular.io/) - Web app, Frontend.
 * [Sass](https://sass-lang.com/) - Organización de codigo CSS.
@@ -27,7 +29,7 @@ Mein Bus usa un numero de tecnologias open source las cuales ayudaron a la const
 
 ### Instalación
 
-Mein Bus requiere [Node](https://nodejs.org/) para correr el proyecto.
+Siscot requiere [Node](https://nodejs.org/) para correr el proyecto.
 
 Para empezar se clona este repositorio y se realizan los siguientes pasos en la terminal:
 
@@ -40,8 +42,8 @@ $ ng build --watch
 ```
 
 ### Development
-
-Mein Bus esta desarrollado en dos partes: Frontend(Vista del cliente) y Backend(Lado del servidor).
+Siscot esta desarrollado en dos partes: Frontend(Vista del cliente) y 
+Backend(Lado del servidor).
 
 ¿Quieres contribuir? ¡Genial!
 
@@ -51,7 +53,8 @@ Durante el desarrollo de Main Bus se usaron tecnologias basicas para la elaborac
 
 #### Backend
 
-Mein Bus permite guardar datos de los usuarios en una base de datos `Postgresql`. Para realizar comunicación con el servidor se usa el framework `Ruby on Rails` para que toda la información sea luego consumida por el Frontend.
+Siscot permite guardar datos de los usuarios en una base de datos 
+`Postgresql`. Para realizar comunicación con el servidor se usa el framework `Ruby on Rails` para que toda la información sea luego consumida por el Frontend.
 
 ## Desarrolladores
 
