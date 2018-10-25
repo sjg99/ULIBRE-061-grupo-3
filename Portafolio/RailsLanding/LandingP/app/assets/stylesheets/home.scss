@@ -1,0 +1,16 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "variables.scss";
+@import "mixins.scss";
+// Global CSS
+@import "global.scss";
+// Components
+@import "navbar.scss";
+@import "masthead.scss";
+@import "services.scss";
+@import "portfolio.scss";
+@import "timeline.scss";
+@import "team.scss";
+@import "contact.scss";
+@import "footer.scss";
