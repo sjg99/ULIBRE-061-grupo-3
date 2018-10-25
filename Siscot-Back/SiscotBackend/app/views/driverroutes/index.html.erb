@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Driverroutes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Driver</th>
+      <th>Route</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @driverroutes.each do |driverroute| %>
+      <tr>
+        <td><%= driverroute.driver %></td>
+        <td><%= driverroute.route %></td>
+        <td><%= link_to 'Show', driverroute %></td>
+        <td><%= link_to 'Edit', edit_driverroute_path(driverroute) %></td>
+        <td><%= link_to 'Destroy', driverroute, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Driverroute', new_driverroute_path %>

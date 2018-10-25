@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @usrfav.user %>
+</p>
+
+<p>
+  <strong>Route:</strong>
+  <%= @usrfav.route %>
+</p>
+
+<%= link_to 'Edit', edit_usrfav_path(@usrfav) %> |
+<%= link_to 'Back', usrfavs_path %>

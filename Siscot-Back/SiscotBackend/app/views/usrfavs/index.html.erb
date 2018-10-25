@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Usrfavs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>User</th>
+      <th>Route</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @usrfavs.each do |usrfav| %>
+      <tr>
+        <td><%= usrfav.user %></td>
+        <td><%= usrfav.route %></td>
+        <td><%= link_to 'Show', usrfav %></td>
+        <td><%= link_to 'Edit', edit_usrfav_path(usrfav) %></td>
+        <td><%= link_to 'Destroy', usrfav, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Usrfav', new_usrfav_path %>

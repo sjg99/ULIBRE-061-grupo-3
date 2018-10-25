@@ -1,0 +1,2 @@
+module UsrfavsHelper
+end
