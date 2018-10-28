@@ -881,7 +881,7 @@ select {
 .hero {
   position: relative;
   width: 100%;
-  background-image: url("1.jpg");
+  background-image: url("0.jpg");
   box-shadow: 0 4px 11px rgba(124, 146, 169, 0.5);
   background-size: cover;
   background-position: center center;
