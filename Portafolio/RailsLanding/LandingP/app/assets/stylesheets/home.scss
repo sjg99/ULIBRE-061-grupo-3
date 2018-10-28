@@ -12,3 +12,21 @@
         }
     }
 }
+
+.team_section{
+    .container{
+        .steps__inner{
+            .step{
+                .step__media{
+                    .team_image{
+                        max-height: 167px !important;
+                        border-radius: 50% !important;
+                    }                    
+                }
+                .step__text{
+                    text-align: center !important;
+                }
+            }
+        }
+    }
+}
