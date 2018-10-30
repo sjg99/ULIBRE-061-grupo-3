@@ -29,7 +29,7 @@
 					<h1 class="hero__title">¡Bienvenido a Siscot!</h1>
 					<p class="hero__text">La nueva solución para el transporte público en cualquier ciudad. Al alcance de todos en una
 						sola app.</p>
-					<a  id="scrollToNext" class="button hero__button scroll">Saber más</a>
+					<a id="scrollToNext" class="button hero__button scroll">Saber más</a>
 				</div>
 			</div>
 		</div>
@@ -58,7 +58,7 @@
 				<h4>Bus sin espera</h4>
 				<p class="step__text">Ya no necesitaras pararte bajo el sol o la lluvia con la incertidumbre de cuando pasara tu
 					ruta, nosotros te diremos cuando salir de casa.</p>
-			</div>			
+			</div>
 			<div class="step">
 				<div class="step__media">
 					<img src="../../assets/schedule.svg" class="step__image">
@@ -142,10 +142,11 @@
 				</div>
 				<h4>David Ruiz</h4>
 				<p class="step__text">Ingeniero Fullstack</p>
-			</div>			
+			</div>
 			<div class="step">
 				<div class="step__media">
-					<img src="https://scontent.fbaq2-2.fna.fbcdn.net/v/t1.0-9/26229829_10215365985809718_5553875473560452083_n.jpg?_nc_cat=107&oh=231cb642b22ad1736d09ea1f541fdf8f&oe=5C5556BB" class="step__image team_image">
+					<img src="https://scontent.fbaq2-2.fna.fbcdn.net/v/t1.0-9/26229829_10215365985809718_5553875473560452083_n.jpg?_nc_cat=107&oh=231cb642b22ad1736d09ea1f541fdf8f&oe=5C5556BB"
+					 class="step__image team_image">
 				</div>
 				<h4>Santiago Jara</h4>
 				<p class="step__text">Ingeniero .Net</p>
@@ -164,10 +165,26 @@
 <!-- Call To Action -->
 <div id="Contact" class="cta cta--reverse">
 	<div class="container">
-		<div class="cta__inner">
-			<h2 class="cta__title">Get started now</h2>
-			<p class="cta__sub cta__sub--center">Grab the production version and begin your project instantly.</p>
-			<a href="#" class="button button__accent">Download Evie</a>
+		<div class="auth__inner">
+			<div class="auth__media">
+				<img src="../../assets/contact.svg">
+			</div>
+			<div class="auth__auth">
+				<h2 class="cta__title">Contactanos ahora</h2>
+				<p class="cta__sub cta__sub--center">Sientete libre en enviarnos un mensaje, te lo responeremos lo antes posible.</p>
+				<form method='post' action="/example" autocompelete="new-password" role="presentation" class="form">
+					<input name="email" class="fakefield">
+					<label class="form-text">Email</label>
+					<input type="text" name="email" id='email' placeholder="you@example.com">
+					<label class="form-text">Password</label>
+					<input type="password" name="password" id='password' placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;"
+					 autocomplete="off">
+					<button type='submit' class="button button__accent">Log in</button>
+					<a href="">
+						<h6 class="left-align form-text">Forgot your password?</h6>
+					</a>
+				</form>
+			</div>
 		</div>
 	</div>
 </div>
@@ -179,13 +196,15 @@
 			<div class="footer__data">
 				<div class="footer__data__item">
 					<div class="footer__row">
-						Programado/Ruby on Rails <a href="https://twitter.com/david98_ruiz" target="_blank" class="footer__link">David Ruiz</a> y <a href="#" target="_blank" class="footer__link">Jorge Morales</a>
+						Programado/Ruby on Rails <a href="https://twitter.com/david98_ruiz" target="_blank" class="footer__link">David
+							Ruiz</a> y <a href="#" target="_blank" class="footer__link">Jorge Morales</a>
 					</div>
 					<div class="footer__row">
 						Creado por <a href="https://twitter.com/ninalimpi" target="_blank" class="footer__link">Katerina Limpitsouni</a>
 					</div>
 					<div class="footer__row">
-						Programado/diseñado por <a href="https://twitter.com/anges244" target="_blank" class="footer__link">Aggelos Gesoulis</a>
+						Programado/diseñado por <a href="https://twitter.com/anges244" target="_blank" class="footer__link">Aggelos
+							Gesoulis</a>
 					</div>
 
 				</div>
