@@ -1,0 +1,42 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.expanded {
+    .howitworks {
+        width: 88%;
+        max-width: 1080px;
+        margin: 0 auto;
+        position: relative;
+        h2{
+            text-align: center !important;
+        }
+    }
+}
+
+.team_section{
+    .container{
+        .steps__inner{
+            .step{
+                .step__media{
+                    .team_image{
+                        max-height: 167px !important;
+                        border-radius: 50% !important;
+                    }                    
+                }
+                .step__text{
+                    text-align: center !important;
+                }
+            }
+        }
+    }
+}
+
+.cta--reverse{
+    .container{
+        .form{
+            .form-text{
+                color: #fff;
+            }
+        }
+    }
+}
