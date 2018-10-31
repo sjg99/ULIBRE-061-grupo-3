@@ -56,6 +56,19 @@ Durante el desarrollo de Main Bus se usaron tecnologias basicas para la elaborac
 Siscot permite guardar datos de los usuarios en una base de datos 
 `Postgresql`. Para realizar comunicación con el servidor se usa el framework `Ruby on Rails` para que toda la información sea luego consumida por el Frontend.
 
+##### API
+
+Siscot provee una [REST API](https://siscotapi.herokuapp.com/users.json) para gestionar la información del frontend.
+Los modelos que se manejan son:
+* Usuario - Guarda informacion de Login del usuario
+* Conductor - Guarda informacion de Login del conductor
+* Ruta - Guarda la informacion de la ruta (Origen-Destino)
+* Favoritos - Guarda la rutas favoritas del usuario
+* Conductores-ruta - Relaciona a los conductores y las rutas que manejan
+* Ratings - Permite a los usuarios calificar a los conductores.
+
+-
+
 ## Desarrolladores
 
 * [David Leonardo Ruiz Carreño](https://github.com/D4v1d98Ru1z) - Estudiante de Ingenieria de Sistemas, Fullstack and AI Developer.
